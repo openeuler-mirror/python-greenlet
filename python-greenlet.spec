@@ -1,6 +1,6 @@
 Name:            python-greenlet
 Version:         0.4.14
-Release:         2
+Release:         3
 Summary:         lightweight coroutines for in-process concurrent programming
 License:         MIT
 URL:             https://github.com/python-greenlet/greenlet
@@ -83,5 +83,11 @@ that use python3-greenlet.
 %{_includedir}/python%{python3_version}*/greenlet/
 
 %changelog
+* Fri Aug 21 2020 fanjiachen <fanjiachen3@huawei.com> - 0.4.14-3
+- Type:rebuild
+- ID:NA
+- SUG:NA
+- DESC:rebuild for requirement package update
+
 * Mon Dec 9 2019 openEuler Buildteam <buildteam@openeuler.org> - 0.4.14-2
 - Package init
