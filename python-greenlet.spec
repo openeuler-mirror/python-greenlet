@@ -1,10 +1,10 @@
 Name:            python-greenlet
 Version:         0.4.14
-Release:         2
+Release:         3
 Summary:         lightweight coroutines for in-process concurrent programming
 License:         MIT
 URL:             https://github.com/python-greenlet/greenlet
-Source0:         https://github.com/python-greenlet/greenlet/archive/greenlet-0.4.14.tar.gz
+Source0:         https://github.com/python-greenlet/greenlet/archive/0.4.14.tar.gz
 
 BuildRequires:   python2-devel python2-setuptools python3-devel python3-setuptools
 BuildRequires:   gcc-c++
@@ -83,5 +83,8 @@ that use python3-greenlet.
 %{_includedir}/python%{python3_version}*/greenlet/
 
 %changelog
+* Tue Sep 8 2020 liuweibo <liuweibo10@openeuler.org> - 0.4.14-3
+- Fix Source0
+
 * Mon Dec 9 2019 openEuler Buildteam <buildteam@openeuler.org> - 0.4.14-2
 - Package init
