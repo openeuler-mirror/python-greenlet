@@ -83,7 +83,7 @@ that use python3-greenlet.
 %{_includedir}/python%{python3_version}*/greenlet/
 
 %changelog
-* Tue Sep 8 2020 liuweibo <liuweibo10@openeuler.org> - 0.4.14-3
+* Tue Sep 8 2020 liuweibo <liuweibo10@huawei.com> - 0.4.14-3
 - Fix Source0
 
 * Mon Dec 9 2019 openEuler Buildteam <buildteam@openeuler.org> - 0.4.14-2
